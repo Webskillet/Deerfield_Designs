@@ -1,2 +1,2 @@
-#header { background-color: black; border-bottom: solid #333 20px; }
+#header { background: url(images/DD_banner_larg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 312px; border-bottom: solid #333 20px; }
 
