@@ -4,7 +4,7 @@
 /* needs breakpoint to not apply to mobile */#mobile-nav-wrap { position: absolute; bottom: 0; }
 /* mobile max-width: 835px */
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
-.tagline h2 { font-size: 1.3em; }
+.tagline h2 { font-size: 1.3em; font-weight: bold; }
 #mobile-nav-wrap { text-transform: uppercase; }
 .header-nav a { color: lightgrey; }
 .header-nav a:hover { color: white; }
@@ -37,6 +37,6 @@ body.home.who { background-image: url("https://webskillet.github.io/Deerfield_De
 body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 
 #footer-callout {  }
-img.footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
+footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
 
