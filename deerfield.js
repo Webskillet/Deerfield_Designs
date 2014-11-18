@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	// add logged-in class if #admin-bar exists
-	if ($('#admin-bar').text().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
+	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// add tagline after the logo
 	$('h1.header-logo').after('<div class="tagline">Custom Screenprinting & Embroidery<br />Organic | Recycled | Fair Trade</div>');
@@ -30,6 +30,7 @@ $(document).ready(function(){
 		var openTab = '#who';
 		if ($(window.location.hash).hasClass('tab')) {
 			$('body, html').scrollTop($('.header-nav').offset().top);
+			console.log('Set body, html scrollTop to '+$('.header-nav').offset().top);
 			openTab = window.location.hash;
 		}
 		$('.tab').hide();
