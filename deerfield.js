@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	// add logged-in class if #admin-bar exists
-	if ($('#admin-bar').length) { $('body').addClass('logged-in');
+	if ($('#admin-bar').length) { $('body').addClass('logged-in'); }
 
 	// test to see if we're on the home page
 	var isHome = false;
