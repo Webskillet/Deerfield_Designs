@@ -3,11 +3,19 @@
 #input-search { background: transparent; }
 /* needs breakpoint to not apply to mobile */#mobile-nav-wrap { position: absolute; bottom: 0; }
 /* mobile max-width: 835px */
-
+.tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
+.tagline h2 { font-size: 1.3em; }
+#mobile-nav-wrap { text-transform: uppercase; }
+.header-nav a { color: lightgrey; }
+.header-nav a:hover { color: white; }
+.header-account a:hover { color: lightgrey; }
+#input-search { color: white; }
+body.home { background-position-y: 180px; }
 @media screen and (min-width: 836px) { 
 	#header { height: 312px; }
 	#header-wrap { height: 293px; }
 	#mobile-nav-wrap { width: 100%; }
+	body.home { background-position-y: 280px; }
 }
 @media screen and (min-width: 1200px) {
 	#header { height: 500px; }
@@ -18,12 +26,10 @@
 	#header-wrap { height: 520px; }
 }
 
-.tagline { color: white; text-align:center; }
-#mobile-nav-wrap { text-transform: uppercase; }
-.header-nav a { color: lightgrey; }
-.header-nav a:hover { color: white; }
-.header-account a:hover { color: lightgrey; }
-#input-search { color: white; }
+body.home.who { background-image: ("https://webskillet.github.io/Deerfield_Designs/images/background1b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+body.home.what { background-image: ("https://webskillet.github.io/Deerfield_Designs/images/background2b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+body.home.who { background-image: ("https://webskillet.github.io/Deerfield_Designs/images/background3b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+body.home.who { background-image: ("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 
 #footer-callout { height: 60px; }
 img.footer-callout-img, h4.footer-callout-heading, a.footer-callout-btn { display: none; }

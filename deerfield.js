@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 	// stuff to do on the front page
 	if (isHome) {
-		$('#footer-callout > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
+		$('#footer-callout > .container').append('<img id="dd-people" src="https://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
 
 		var openTab = '#who';
 		if ($(window.location.hash).hasClass('tab')) {
