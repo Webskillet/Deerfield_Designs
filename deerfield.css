@@ -46,7 +46,7 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 @media screen and (min-width: 836px) {
 	.home .page-content-wrap { max-width: 530px; }
 }
-@media sceen and (min-width: 960px) {
+@media screen and (min-width: 960px) {
 	.home .page-content-wrap { max-width: 630px; }
 }
 
