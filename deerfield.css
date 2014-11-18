@@ -1,6 +1,4 @@
 #header { background: url(images/DD_banner_large.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: solid #333 30px; }
-/* needs breakpoint to not apply to mobile */
-/* mobile max-width: 835px */
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 .tagline h2 { font-size: 1.3em; font-weight: bold; }
 #mobile-nav-wrap { text-transform: uppercase; }
@@ -24,17 +22,32 @@ body.home { background-position-y: 180px; }
 	#header { height: 500px; }
 	.logged-in #header { height: 560px; }
 	#header-wrap { height: 420px; }
+	body.home { background-position-y: 460px; }
 }
-@media screen and (min-width: 1500px) {
+/*@media screen and (min-width: 1500px) {
 	#header { height: 600px; }
 	.logged-in #header { height: 660px; }
 	#header-wrap { height: 520px; }
-}
+	body.home { background-position-y: 560px; background-color: white; }
+}*/
 
 body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background1b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.what { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background2b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.why { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background3b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.how { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+
+@media screen and (max-width: 744px) {
+	img#dd-people { display: none; }
+}
+@media screen and (min-width: 745px) {
+	.home .page-content-wrap { max-width: 440px; }
+}
+@media screen and (min-width: 836px) {
+	.home .page-content-wrap { max-width: 530px; }
+}
+@media sceen and (min-width: 960px) {
+	.home .page-content-wrap { max-width: 630px; }
+}
 
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
