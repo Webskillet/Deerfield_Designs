@@ -25,9 +25,13 @@ $(document).ready(function(){
 
 	// stuff to do on the front page
 	if (isHome) {
-		$('#footer > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
+		$('#footer-callout > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
 
-		var openTab = $(window.location.hash).hasClass('tab') ? window.location.hash : '#who';
+		var openTab = '#who';
+		if ($(window.location.hash).hasClass('tab')) {
+			$('body, html').scrollTop($('.header-nav').offset().top);
+			openTab = window.location.hash;
+		}
 		$('.tab').hide();
 		$(openTab).show();
 		$('body').addClass(openTab.substring(1));

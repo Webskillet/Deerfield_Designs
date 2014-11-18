@@ -3,7 +3,7 @@ $(document).ready(function(){
 	if ($('#admin-bar').text().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// add tagline after the logo
-	$('h1.header-logo').after('<div class="tagline">Custom Screenprinting & Embroidery<br />Organic | Recycled | Fair Trade</div>);
+	$('h1.header-logo').after('<div class="tagline">Custom Screenprinting & Embroidery<br />Organic | Recycled | Fair Trade</div>');
 
 	// test to see if we're on the home page
 	var isHome = false;
@@ -25,9 +25,10 @@ $(document).ready(function(){
 
 	// stuff to do on the front page
 	if (isHome) {
-		$('#footer > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
+		$('#footer-callout > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
 
 		var openTab = $(window.location.hash).hasClass('tab') ? window.location.hash : '#who';
+		if ($(window.location.hash).hasClass('tab')) { $('body, html').scrollTop(0); }
 		$('.tab').hide();
 		$(openTab).show();
 		$('body').addClass(openTab.substring(1));
