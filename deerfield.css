@@ -18,6 +18,7 @@
 	#header-wrap { height: 520px; }
 }
 
+.tagline { color: white; text-align:center; }
 #mobile-nav-wrap { text-transform: uppercase; }
 .header-nav a { color: lightgrey; }
 .header-nav a:hover { color: white; }

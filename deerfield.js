@@ -3,7 +3,7 @@ $(document).ready(function(){
 	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// add tagline after the logo
-	$('h1.header-logo').after('<div class="tagline">Custom Screenprinting & Embroidery<br />Organic | Recycled | Fair Trade</div>');
+	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
 
 	// test to see if we're on the home page
 	var isHome = false;
