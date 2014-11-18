@@ -29,8 +29,7 @@ $(document).ready(function(){
 
 		var openTab = '#who';
 		if ($(window.location.hash).hasClass('tab')) {
-			$('body, html').scrollTop($('.header-nav').offset().top);
-			console.log('Set body, html scrollTop to '+$('.header-nav').offset().top);
+			window.setTimeout(function(){$('body, html').scrollTop($('.header-nav').offset().top)},100);
 			openTab = window.location.hash;
 		}
 		$('.tab').hide();
