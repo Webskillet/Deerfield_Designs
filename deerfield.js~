@@ -23,6 +23,7 @@ $(document).ready(function(){
 	menuHtml += '<li id="header-nav-how" class="tablink"><a href="'+urlBase+'#how">How</a></li>';
 	$('.header-nav > ul').prepend(menuHtml);
 
+	// stuff to do on the front page
 	if (isHome) {
 		$('#footer > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
 
