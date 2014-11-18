@@ -5,6 +5,7 @@
 @media screen and (min-width: 901px) { 
 	#header { height: 312px; }
 	#header-wrap { height: 293px; }
+	#mobile-nav-wrap { width: 100%; }
 }
 @media screen and (min-width: 1200px) {
 	#header { height: 500px; }
@@ -15,5 +16,8 @@
 	#header-wrap { height: 520px; }
 }
 
-.header-nav a { color: light-grey; }
+#mobile-nav-wrap { text-transform: uppercase; }
+.header-nav a { color: lightgrey; }
 .header-nav a:hover { color: white; }
+.header-account a:hover { color: lightgrey; }
+#input-search { color: white; }
