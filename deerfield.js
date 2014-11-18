@@ -2,6 +2,9 @@ $(document).ready(function(){
 	// add logged-in class if #admin-bar exists
 	if ($('#admin-bar').text().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
+	// add tagline
+	$('h1.header-logo').after('<div class="tagline">Custom Screenprinting & Embroidery<br />Organic | Recycled | Fair Trade</div>);
+
 	// test to see if we're on the home page
 	var isHome = false;
 	var urlBase = window.location.origin + '/deerfield_designs/stores/page/1000000/homepage?nocache=1';
@@ -20,14 +23,24 @@ $(document).ready(function(){
 	menuHtml += '<li id="header-nav-how" class="tablink"><a href="'+urlBase+'#how">How</a></li>';
 	$('.header-nav > ul').prepend(menuHtml);
 
+	// stuff to do on the front page
 	if (isHome) {
+		$('#footer > .container').append('<img id="dd-people" src="http://webskillet.github.io/Deerfield_Designs/images/dd_people.png" />');
+
 		var openTab = $(window.location.hash).hasClass('tab') ? window.location.hash : '#who';
 		$('.tab').hide();
-		$('#who').show();
+		$(openTab).show();
+		$('body').addClass(openTab.substring(1));
 		$('.tablink a').click(function(event){
 			event.preventDefault();
 			$('.tab').hide();
-			$($(this).attr('href')).show();
+			var target = $(this).attr('href');
+			$(target).show();
+			$('body').removeClass('who what why how');
+			$('body').addClass(target.substring(1));
+			$('body, html').animate({
+				scrollTop : $(this).closest('.header-nav').offset().top
+			}, 500);
 		});
 	}
 });
