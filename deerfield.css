@@ -36,7 +36,6 @@ body.home.what { background-image: url("https://webskillet.github.io/Deerfield_D
 body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background3b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 
-#footer-callout {  }
-footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
+.footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
 
