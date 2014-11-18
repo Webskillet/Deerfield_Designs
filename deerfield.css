@@ -2,7 +2,9 @@
 .header-search .form-group { background: rgba(255, 255, 255, .2); border: solid 1px rgba(3, 27, 127, .3); }
 #input-search { background: transparent; }
 /* needs breakpoint to not apply to mobile */#mobile-nav-wrap { position: absolute; bottom: 0; }
-@media screen and (min-width: 901px) { 
+/* mobile max-width: 835px */
+
+@media screen and (min-width: 836px) { 
 	#header { height: 312px; }
 	#header-wrap { height: 293px; }
 	#mobile-nav-wrap { width: 100%; }
@@ -21,3 +23,8 @@
 .header-nav a:hover { color: white; }
 .header-account a:hover { color: lightgrey; }
 #input-search { color: white; }
+
+#footer-callout { height: 60px; }
+img.footer-callout-img, h4.footer-callout-heading, a.footer-callout-btn { display: none; }
+img#dd-people { position: absolute; right: 0; bottom: 0; }
+
