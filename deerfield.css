@@ -58,5 +58,5 @@ p, li { color: black; }
 .home h1 { color: #121212; text-shadow: 1px 1px grey; }
 .home h2, .home h3, .home h4, .home h5, .home h6 { text-transform: uppercase; }
 .content-block .tab p + h2, .content-block .tab p + h3, .content-block .tab p + h4, .content-block .tab p + h5, .content-block .tab p + h6, .content-block .tab ul + h2, .content-block .tab ul + h3, .content-block .tab ul + h4, .content-block .tab ul + h5, .content-block .tab ul + h6 { margin-top: 40px; }
-.home li { margin-bottom: .5em; }
-.home li > ul { margin-bottom: 0; }
+.home .content-block li { margin-bottom: .5em; }
+.home ul > ul { margin-bottom: 0; }
