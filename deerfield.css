@@ -56,4 +56,5 @@ img#dd-people { position: absolute; right: 0; bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 p, li { color: black; }
 .home h1 { color: #121212; text-shadow: 1px 1px grey; }
+.home h2, .home h3, .home h4, .home h5, .home h6 { text-transform: uppercase; }
 .content-block .tab p + h2, .content-block .tab p + h3, .content-block .tab p + h4, .content-block .tab p + h5, .content-block .tab p + h6 { margin-top: 40px; }
