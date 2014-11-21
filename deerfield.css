@@ -25,7 +25,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	.logged-in #header { height: 560px; }
 	#header-wrap { height: 480px; }
 	.tagline { top: 102px; }
-	h1.header-logo { top: 30px; left: -19px; }
+	h1.header-logo { top: 30px; left: -19px; position: relative; }
 	.header-main-nav { top: 435px; }
 	body.home { background-position-y: 460px; }
 }
