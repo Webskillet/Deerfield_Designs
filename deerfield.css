@@ -7,7 +7,7 @@
 .header-nav a:hover { color: white; }
 .header-account a:hover { color: lightgrey; }
 #input-search { color: white; }
-body.home { background-position-y: 180px; }
+body.home { background-position-y: 180px; background-color: white; }
 @media screen and (min-width: 836px) { 
 	#header { height: 312px; }
 	.logged-in #header { height: 372px; }
@@ -53,6 +53,7 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
 
-h1, h2, h3, h4, h5 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
-
+h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 p, li { color: black; }
+.home h1 { color: #121212; text-shadow: 1px 1px grey; }
+.content-block .tab p + h2, .content-block .tab p + h3, .content-block .tab p + h4, .content-block .tab p + h5, .content-block .tab p + h6 { margin-top: 40px; }
