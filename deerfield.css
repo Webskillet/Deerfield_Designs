@@ -1,5 +1,5 @@
 #header { background: url(images/DD_banner_large.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: solid #333 30px; }
-.header-logo img { max-width: none; }
+.header-logo img { max-height: none; }
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 .tagline h2 { font-size: 1.3em; font-weight: bold; }
 #mobile-nav-wrap { text-transform: uppercase; }
@@ -13,6 +13,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	.logged-in #header { height: 372px; }
 	#header-wrap { height: 293px; }
 	#mobile-nav-wrap { position: absolute; bottom: 0; width: 100%; }
+	.header-main-nav { top: 247px; z-index: 500; }
 	.tagline { position: absolute; right: 0; }
 	.header-search .form-group { background: rgba(255, 255, 255, .2); border: solid 1px rgba(3, 27, 127, .3); }
 	#input-search { background: transparent; }
@@ -23,6 +24,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	#header { height: 500px; }
 	.logged-in #header { height: 560px; }
 	#header-wrap { height: 480px; }
+	.header-main-nav { top: 435px; }
 	body.home { background-position-y: 460px; }
 }
 /*@media screen and (min-width: 1500px) {
