@@ -32,10 +32,10 @@ body.home { background-position-y: 180px; background-color: white; }
 	body.home { background-position-y: 560px; background-color: white; }
 }*/
 
-body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background1b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+body.home.who { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.what { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background2b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.why { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background3b.jpg"); background-repeat: no-repeat; background-position-x: center; }
-body.home.how { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background4b.jpg"); background-repeat: no-repeat; background-position-x: center; }
+body.home.how { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background1b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 
 @media screen and (max-width: 744px) {
 	img#dd-people { display: none; }
