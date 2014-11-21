@@ -61,5 +61,6 @@ p, li { color: black; }
 .home .content-block li { margin-bottom: .5em; }
 .home ul ul { margin-bottom: 0; }
 .home .tab { background-color: rgba(255,255,255,.6); padding: 20px; }
+.home .tab p, .home .tab li { font-family: arial; }
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
