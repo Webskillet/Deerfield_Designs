@@ -13,7 +13,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	.logged-in #header { height: 372px; }
 	#header-wrap { height: 293px; }
 	#mobile-nav-wrap { position: absolute; bottom: 0; width: 100%; }
-	.header-main-nav { top: 247px; z-index: 500; top: 24px; }
+	.header-main-nav { top: 247px; z-index: 500; }
 	.tagline { position: absolute; right: 0; font-size: 1.3em; }
 	.header-search .form-group { background: rgba(255, 255, 255, .2); border: solid 1px rgba(3, 27, 127, .3); }
 	#input-search { background: transparent; }
