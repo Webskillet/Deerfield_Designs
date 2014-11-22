@@ -47,4 +47,8 @@ $(document).ready(function(){
 			}, 500);
 		});
 	}
+
+	// add logos to footer
+	// actually will add via css for now ...  $('.footer-links').before('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
+	
 });
