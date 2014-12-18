@@ -2,6 +2,9 @@ $(document).ready(function(){
 	// add logged-in class if #admin-bar exists
 	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
+	// change logo
+	$('#storeimagelogo').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
+
 	// add tagline after the logo
 	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
 
@@ -37,9 +40,11 @@ $(document).ready(function(){
 		$('body').addClass(openTab.substring(1));
 		$('.tablink a').click(function(event){
 			event.preventDefault();
-			$('.tab').hide();
+			$('.tab').hide().removeClass('active');
+			$('.tablink').removeClass('active');
 			var target = $(this).attr('href');
-			$(target).show();
+			$(target).show().addClass('active');
+			$(this).parent().addClass('active');
 			$('body').removeClass('who what why how');
 			$('body').addClass(target.substring(1));
 			$('body, html').animate({
@@ -47,6 +52,13 @@ $(document).ready(function(){
 			}, 500);
 		});
 	}
+
+	// change text for selecting garment
+	$('.item-user-options li a').each(function(){
+		if (jQuery(this).text().trim() == 'Create you own design') {
+			jQuery(this).text('Select this garment');
+		}
+	});
 
 	// add logos to footer
 	// actually will add via css for now ...  $('.footer-links').before('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
