@@ -3,7 +3,7 @@ $(document).ready(function(){
 	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// change logo
-	$('#storeimagelogo').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
+	$('#storelogoimage').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
 
 	// add tagline after the logo
 	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
@@ -36,8 +36,9 @@ $(document).ready(function(){
 			openTab = window.location.hash;
 		}
 		$('.tab').hide();
-		$(openTab).show();
+		$(openTab).show().addClass('active');
 		$('body').addClass(openTab.substring(1));
+		$('#header-nav-'+openTab.substring(1)).addClass('active');
 		$('.tablink a').click(function(event){
 			event.preventDefault();
 			$('.tab').hide().removeClass('active');
@@ -55,8 +56,8 @@ $(document).ready(function(){
 
 	// change text for selecting garment
 	$('.item-user-options li a').each(function(){
-		if (jQuery(this).text().trim() == 'Create you own design') {
-			jQuery(this).text('Select this garment');
+		if (jQuery(this).text().trim() == 'Create your own design') {
+			jQuery(this).html('<span class="icon-customize icon-sprite"></span> Select this garment');
 		}
 	});
 
