@@ -7,8 +7,8 @@ $(document).ready(function(){
 
 	// test to see if we're on the home page
 	var isHome = false;
-	var urlBase = window.location.origin + '/deerfield_designs/stores/page/1000000/homepage?nocache=1';
-	if (window.location.pathname.toLowerCase() == '/deerfield_designs/stores/page/1000000/homepage') {
+	var urlBase = window.location.origin + '/Deerfield_Designs/Stores/Page/1000000/Deerfield_Designs';
+	if (window.location.pathname.toLowerCase() == '/deerfield_designs/stores/page/1000000/deerfield_designs') {
 		$('body').addClass('home');
 		urlBase = '';
 		isHome = true;
