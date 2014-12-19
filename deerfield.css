@@ -1,5 +1,6 @@
 #header { background: url(images/DD_banner_large.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: solid #333 30px; }
 .header-logo img { max-height: none; }
+img#storelogoimage { width: 200px; }
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 .tagline h2 { font-size: 1.3em; font-weight: bold; }
 #mobile-nav-wrap { text-transform: uppercase; }
@@ -68,3 +69,7 @@ p, li { color: black; }
 .home .tab p, .home .tab li { font-family: arial; }
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
+
+/* product pages */
+.item-user-options li:first-child { display: none; }
+.item-user-options li { width: 100%; }
