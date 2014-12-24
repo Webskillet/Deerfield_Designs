@@ -6,7 +6,7 @@ img#storelogoimage { width: 200px; }
 #mobile-nav-wrap { text-transform: uppercase; }
 .header-nav a { color: lightgrey; }
 .header-nav a:hover { color: white; }
-.header-nav .active a { background-color: #1F1F1F; }
+.header-nav .active > a { background-color: #1F1F1F; }
 .header-account a:hover { color: lightgrey; }
 #input-search { color: white; }
 body.home { background-position-y: 180px; background-color: white; }
