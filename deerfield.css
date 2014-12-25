@@ -63,6 +63,8 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 	.home .page-content-wrap { max-width: 630px; }
 }
 
+/* footer */
+#quote-callout { margin-right: 10px; }
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
 @media screen and (min-width: 751px) {
@@ -76,6 +78,7 @@ img#dd-people { position: absolute; right: 0; bottom: 0; }
 }
 #inksoft-trademark { display: none; }
 #copyright { float: none; width: 200px; margin: 0 auto; }
+/* end footer */
 
 h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 p, li { color: black; }
