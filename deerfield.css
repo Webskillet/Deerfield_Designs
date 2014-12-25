@@ -1,7 +1,7 @@
 #header { background: url(images/DD_banner_large.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: solid #333 42px; }
 
 .header-logo img { max-height: none; }
-h1.header-logo { height: 200px; }
+h1.header-logo { height: 200px; width: 200px; }
 img#storelogoimage { width: 200px; }
 #store-logo { width: inherit; height: inherit; }
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
@@ -13,6 +13,10 @@ img#storelogoimage { width: 200px; }
 .header-account a:hover { color: lightgrey; }
 #input-search { color: white; }
 body.home { background-position-y: 180px; background-color: white; }
+@media screen and (max-width: 835px) {
+	h1.header-logo { margin: 0 auto; }
+	#header { border-bottom: 8px; }
+}
 @media screen and (min-width: 836px) { 
 	#header { height: 312px; }
 	.logged-in #header { height: 372px; }
