@@ -62,6 +62,6 @@ $(document).ready(function(){
 	});
 
 	// add logos to footer
-	// actually will add via css for now ...  $('.footer-links').before('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
+	$('.footer-links').before('<div id="logos-block"><img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /> <img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /> <img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
 	
 });
