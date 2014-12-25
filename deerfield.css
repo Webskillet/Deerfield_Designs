@@ -101,6 +101,6 @@ p, li { color: black; }
 
 /* design studio */
 	/* upload button*/ 
-	.isd-upload-image a { background-color: #649812; color: white; }
-	.isd-upload-image a:hover { background-color: #54810e; }
+	.isd-upload-image a { background-color: #649812 !important; color: white !important; }
+	.isd-upload-image a:hover { background-color: #54810e !important; }
 	.isd-flat-icons.fi-upload { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/uploadicon.png"); background-repeat: no-repeat; background-position-x: center; background-position-y: center; }
