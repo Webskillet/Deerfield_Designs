@@ -77,7 +77,7 @@ img#dd-people { position: absolute; right: 0; bottom: 0; }
 	#logos-block img { margin-left: 20px; }
 }
 #inksoft-trademark { display: none; }
-#copyright { float: none; width: 200px; margin: 0 auto; }
+#copyright { float: none; width: 200px; margin: 0 auto; text-align: center; display: block; }
 /* end footer */
 
 h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
