@@ -62,6 +62,6 @@ $(document).ready(function(){
 	});
 
 	// add logos to footer
-	$('.footer-links').before('<div id="logos-block"><img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /> <img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /> <img id="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
+	$('.footer-links').before('<div id="logos-block"><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
 	
 });

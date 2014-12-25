@@ -58,6 +58,8 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
+#logos-block { width: 165; float: right; margin-top: -180px; }
+#logos-block img { margin-bottom: 10px; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 p, li { color: black; }
