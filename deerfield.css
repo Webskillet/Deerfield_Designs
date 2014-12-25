@@ -65,10 +65,15 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
-#logos-block { width: 165px; float: right; margin-top: -180px; }
-#logos-block img { margin-bottom: 10px; position: relative; }
-#logos-block img:nth-child(2) { left: 25px; }
-#logos-block img:nth-child(3) { left: 32px; }
+@media screen and (min-width: 751px) {
+	#logos-block { width: 165px; float: right; margin-top: -180px; }
+	#logos-block img { margin-bottom: 10px; position: relative; }
+	#logos-block img:nth-child(2) { left: 25px; }
+	#logos-block img:nth-child(3) { left: 32px; }
+}
+@media screen and (max-width: 750px) {
+	#logos-block img { margin-left: 20px; }
+}
 #inksoft-trademark { display: none; }
 #copyright { float: none; width: 200px; margin: 0 auto; }
 
