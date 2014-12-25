@@ -15,7 +15,7 @@ img#storelogoimage { width: 200px; }
 body.home { background-position-y: 180px; background-color: white; }
 @media screen and (max-width: 835px) {
 	h1.header-logo { margin: 0 auto; }
-	#header { border-bottom: 8px; }
+	#header { border-bottom: solid #333 8px; }
 }
 @media screen and (min-width: 836px) { 
 	#header { height: 312px; }
