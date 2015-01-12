@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$('#storelogoimage').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
 
 	// add tagline after the logo
-	$('h1.header-logo').after('<div class="tagline"><h2>America\'s Largest Selection of Sustainable Apparel</h2><p>Mad River Valley, Vermont<br />(802) 496-4224</p></div>');
+	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting and Embroidery</h2><p>Organic | Recycled | Fair Trade<br />Mad River Valley, Vermont<br />(802) 496-4224</p></div>');
 
 	// test to see if we're on the home page
 	var isHome = false;
@@ -64,5 +64,5 @@ $(document).ready(function(){
 	// add logos to footer
 	$('.footer-links').before('<div id="logos-block"><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
 	//add tagline to footer
-	$('.footer-links').prepend('<p>Organic | Recycled | Fair Trade</p>');
+	$('.footer-links').prepend('<p>America\'s Largest Selection of Sustainable Apparel</p>');
 });
