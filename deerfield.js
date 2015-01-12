@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$('#storelogoimage').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
 
 	// add tagline after the logo
-	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting & Embroidery</h2><p>Organic | Recycled | Fair Trade</p></div>');
+	$('h1.header-logo').after('<div class="tagline"><h2>America\'s Largest Selection of Sustainable Apparel</h2><p>Organic | Recycled | Fair Trade</p></div>');
 
 	// test to see if we're on the home page
 	var isHome = false;
