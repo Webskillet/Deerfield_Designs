@@ -30,12 +30,12 @@ body.home { background-position-y: 180px; background-color: white; }
 	
 }
 @media screen and (min-width: 1200px) {
-	#header { height: 500px; }
-	.logged-in #header { height: 560px; }
-	#header-wrap { height: 475px; }
-	.tagline { top: 102px; }
-	h1.header-logo { top: 30px; left: -19px; position: relative; }
-	.header-main-nav { top: 435px; }
+	.home #header { height: 500px; }
+	.home .logged-in #header { height: 560px; }
+	.home #header-wrap { height: 475px; }
+	.home .tagline { top: 102px; }
+	.home h1.header-logo { top: 30px; left: -19px; position: relative; }
+	.home .header-main-nav { top: 435px; }
 	body.home { background-position-y: 460px; }
 }
 /*@media screen and (min-width: 1500px) {
