@@ -62,7 +62,7 @@ $(document).ready(function(){
 	});
 
 	// add upload button to footer
-	$('#quote-callout').append('<hr /><h3 id="upload-design-prompt">Need to upload your design?</h3><p>If you need to upload your logo or art without creating on order or a quote you can do it here.</p><a class="btn-primary btn" href="/Deerfield_Designs/designstudio">Upload Your Design</a>');
+	$('#quote-callout').append('<h3 id="upload-design-prompt">Need to upload your design?</h3><p>If you need to upload your logo or art without creating on order or a quote you can do it here.</p><a class="btn-primary btn" href="/Deerfield_Designs/designstudio">Upload Your Design</a>');
 	// add logos to footer
 	$('.footer-links').before('<div id="logos-block"><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
 	//add tagline to footer
