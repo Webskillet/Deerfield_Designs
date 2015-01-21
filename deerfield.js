@@ -66,6 +66,6 @@ $(document).ready(function(){
 	// add logos to footer
 	$('.footer-links').before('<div id="logos-block"><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/1percent-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/fairlabor-logo.png" /><img class="membership-logos" src="https://webskillet.github.io/Deerfield_Designs/images/organictextiles-logo.png" /></div>');
 	//add tagline to footer
-	$('.footer-links').prepend('<p>America\'s Largest Selection of Sustainable Apparel</p><p>151 Mad River Canoe Rd, Waitsfield, VT 05673</p>');
+	$('.footer-links').prepend('<p style="margin-bottom:10px;">America\'s Largest Selection of Sustainable Apparel</p><p style="color:rgb(89, 89, 89);">151 Mad River Canoe Rd, Waitsfield, VT 05673</p>');
 
 });
