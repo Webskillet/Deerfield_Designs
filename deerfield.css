@@ -97,6 +97,7 @@ p, li { color: black; }
 /* product pages */
 .item-user-options li:first-child { display: none; }
 .item-user-options li { width: 100%; }
+.item-user-options a { font-size: 1.5em; }
 
 /* get a quote popup */
 .product-category-thumb { display: none; }
