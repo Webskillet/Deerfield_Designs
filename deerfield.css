@@ -90,9 +90,11 @@ p, li { color: black; }
 .home .content-block li { margin-bottom: .5em; }
 .home ul ul { margin-bottom: 0; }
 .home .tab { background-color: rgba(255,255,255,.6); padding: 20px; }
-.home .tab h2 { font-size: 20px; }
+.home .tab h2 { font-size: 17px; }
 .home .tab p, .home .tab li, .home .tab dd { font-family: arial; }
-.home .tab p, .home .tab li, .home .tab dd, .home .tab dt { font-size: 1.3em; }
+.home .tab li, .home .tab dd, .home .tab dt { font-size: 1.3em; }
+.home .tab p { font-size: 17px; }
+.
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
 /*#who a.btn { font-size: 1.3em; }*/
