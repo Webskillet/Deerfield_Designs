@@ -50,8 +50,9 @@ body.home.what { background-image: url("https://webskillet.github.io/Deerfield_D
 body.home.why { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background3b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 body.home.how { background-image: url("https://webskillet.github.io/Deerfield_Designs/images/background1b.jpg"); background-repeat: no-repeat; background-position-x: center; }
 #how dl { counter-reset: order; }
-#how dt { position: relative; }
-#how dt:before { content: counter(order); counter-increment: order; position: absolute; top: 0; left: 0; color: grey; }
+#how dt { position: relative; padding-left: 30px; margin-top: 20px; text-transform: uppercase; font-size: 15px; color: rgb(9, 21, 19); letter-spacing: -.05em; }
+#how dt:before { content: counter(order); counter-increment: order; position: absolute; top: -5px; left: 0; color: grey; font-size: 30px; }
+#how dd { color: rgb(35, 39, 38); }
 
 @media screen and (max-width: 744px) {
 	img#dd-people { display: none; }
