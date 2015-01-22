@@ -90,14 +90,15 @@ p, li { color: black; }
 .home .content-block li { margin-bottom: .5em; }
 .home ul ul { margin-bottom: 0; }
 .home .tab { background-color: rgba(255,255,255,.6); padding: 20px; }
-.home .tab p, .home .tab li { font-family: arial; }
+.home .tab p, .home .tab li, .home .tab dd { font-family: arial; }
+.home .tab p, .home .tab li, .home .tab dd, .home .tab dt { font-size: 1.1em; }
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
 #who a.btn { font-size: 1.3em; }
 #how dl { counter-reset: order; }
 #how dt { position: relative; padding-left: 30px; margin-top: 20px; text-transform: uppercase; font-size: 15px; color: rgb(9, 21, 19); letter-spacing: -.05em; }
 #how dt:before { content: counter(order); counter-increment: order; position: absolute; top: -5px; left: 0; color: grey; font-size: 30px; }
-#how dd { color: rgb(35, 39, 38); font-family: arial; }
+#how dd { color: rgb(35, 39, 38); }
 
 /* product pages */
 .item-user-options li:first-child { display: none; }
