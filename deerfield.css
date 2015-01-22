@@ -92,8 +92,8 @@ p, li { color: black; }
 .home .tab { background-color: rgba(255,255,255,.6); padding: 20px; }
 .home .tab h2 { font-size: 17px; }
 .home .tab p, .home .tab li, .home .tab dd { font-family: arial; }
-.home .tab li, .home .tab dd, .home .tab dt { font-size: 1.3em; }
-.home .tab p { font-size: 17px; }
+.home .tab p, .home .tab li, .home .tab dd, .home .tab dt { font-size: 1.3em; }
+.home .tab li { font-weight: bold; }
 .
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
