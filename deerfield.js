@@ -48,9 +48,9 @@ $(document).ready(function(){
 			$(this).parent().addClass('active');
 			$('body').removeClass('who what why how');
 			$('body').addClass(target.substring(1));
-			$('body, html').animate({
-				scrollTop : $(this).closest('.header-nav').offset().top
-			}, 500);
+			//$('body, html').animate({
+			//	scrollTop : $(this).closest('.header-nav').offset().top
+			//}, 500);
 		});
 	}
 
