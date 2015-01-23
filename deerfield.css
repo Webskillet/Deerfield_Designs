@@ -94,7 +94,8 @@ p, li { color: black; }
 .home .tab p, .home .tab li, .home .tab dd { font-family: arial; }
 .home .tab p, .home .tab li, .home .tab dd, .home .tab dt { font-size: 1.3em; text-transform: lowercase; }
 .home .tab li { font-weight: bold; }
-.home .tab p { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; color: #383838 }
+.home .tab p { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; color: #383838; }
+.home .tab p, .home .tab ul { margin-bottom: 18px;}
 .
 .page-content-wrap { padding: 20px 0; }
 .page-header { padding-bottom: 0; }
