@@ -3,14 +3,15 @@ $(document).ready(function(){
 	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// change logo
-	$('#storelogoimage').attr('src','https://webskillet.github.io/Deerfield_Designs/images/deerfield_logo_points.png');
+	$('#storelogoimage').attr('src','/home/alec/WEBSKILLET/Clients/Archived%20Projects/Deerfield/Deerfield_Designs/images/deerfield_logo_points.png');
 
 	// add tagline after the logo
 	$('h1.header-logo').after('<div class="tagline"><h2>Custom Screenprinting and Embroidery</h2><p>Organic | Recycled | Fair Trade<br />Mad River Valley, Vermont<br />(802) 496-4224</p></div>');
 
 	// test to see if we're on the home page
 	var isHome = false;
-	var urlBase = window.location.origin + '/Deerfield_Designs/Stores/Page/1000000/Deerfield_Designs';
+	//var urlBase = window.location.origin + '/Deerfield_Designs/Stores/Page/1000000/Deerfield_Designs';
+	var urlBase = window.location.origin + '/home/alec/WEBSKILLET/Clients/Archived%20Projects/Deerfield/Deerfield_Designs/Deerfield_Designs.html';
 	if (window.location.pathname.toLowerCase() == '/deerfield_designs/stores/page/1000000/deerfield_designs') {
 		$('body').addClass('home');
 		urlBase = '';

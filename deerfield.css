@@ -2,7 +2,7 @@
 
 .header-logo img { max-height: none; }
 h1.header-logo { height: 200px; width: 200px; }
-img#storelogoimage { width: 165px; }
+img#storelogoimage { width: 165px; display: block !important; }
 #store-logo { width: inherit; height: inherit; }
 .tagline h2, .tagline p { color: white; text-align:center; font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 .tagline h2 { font-size: 1.3em; font-weight: bold; }
