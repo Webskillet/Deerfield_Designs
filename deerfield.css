@@ -54,7 +54,7 @@ body.home { background-position-y: 180px; background-color: white; }
  */
 
 /* Homepage */
-body > .container { background: url(images/bgrnd_mobile.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; padding: 10px; }
+.home body > .container { background: url(images/bgrnd_mobile.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; padding: 10px; }
 .home > .container h2, .home > .container h3, .home > .container ul li, .home > .container p, .home > .container a { color: white; }
 .home > .container h2 { font-size: 36px; line-height: 38px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); font-weight: bold; }
 .home > .container h3 { font-size: 20px; line-height: 27px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); }
@@ -63,7 +63,7 @@ body > .container { background: url(images/bgrnd_mobile.png) no-repeat center ce
 .home .page-content-wrap { padding-bottom: 0; }
 /* Tablet */
 @media screen and (min-width: 768px) {
-  body > .container { background: url(images/bgrnd_tablet.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
+  .home body > .container { background: url(images/bgrnd_tablet.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
   .home .page-content-wrap { padding: 30px 20px 0; height: 375px; }
   .home > .container h2 { font-size: 36px; line-height: 38px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); width: 390px; }
   .home > .container h3 { font-size: 20px; line-height: 27px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); width: 210px; margin-bottom: 60px; }
@@ -74,7 +74,7 @@ body > .container { background: url(images/bgrnd_mobile.png) no-repeat center ce
 }
 /* Desktop */
 @media screen and (min-width: 992px) {
-  body > .container { background: url(images/bgrnd_desktop.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
+  .home body > .container { background: url(images/bgrnd_desktop.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
   .home .page-content-wrap { max-width: 960px; margin: 0 auto; height: 545px; }
   .home > .container h2 { font-size: 48px; line-height: 55px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); width: 8em; margin-bottom: 1em; }
   .home > .container h3 { font-size: 24px; line-height: 30px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); width: 9em; margin-bottom: 1.5em; }
