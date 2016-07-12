@@ -52,7 +52,9 @@ body.home { background-position-y: 180px; background-color: white; }
  * Body
  */
 
-/* Homepage */
+/**
+ * Homepage
+ */
 .home body > .container { background: url(images/bgrnd_mobile.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; padding: 10px; }
 .home > .container h2, .home > .container h3, .home > .container ul li, .home > .container p, .home > .container a { color: white; }
 .home > .container h2 { font-size: 36px; line-height: 38px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); font-weight: bold; }
@@ -101,6 +103,18 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 }
 @media screen and (min-width: 960px) {
 	.home .page-content-wrap {  }
+}
+
+/**
+ * Shopping Page
+ */
+.dd-store {
+  max-width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+.dd-store img {
+  max-width: 100%;
 }
 
 /* footer */
