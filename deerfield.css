@@ -56,7 +56,7 @@ body.home { background-position-y: 180px; background-color: white; }
 /**
  * Homepage
  */
-.home body > .container { background: url(images/bgrnd_mobile.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; padding: 10px; }
+.home > .container { background: url(images/bgrnd_mobile.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; padding: 10px; }
 .home > .container h2, .home > .container h3, .home > .container ul li, .home > .container p, .home > .container a { color: white; }
 .home > .container h2 { font-size: 36px; line-height: 38px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); font-weight: bold; }
 .home > .container h3 { font-size: 20px; line-height: 27px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); }
@@ -65,7 +65,7 @@ body.home { background-position-y: 180px; background-color: white; }
 .home .page-content-wrap { padding-bottom: 0; }
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .home body > .container { background: url(images/bgrnd_tablet.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
+  .home > .container { background: url(images/bgrnd_tablet.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
   .home .page-content-wrap { padding: 30px 20px 0; height: 375px; }
   .home > .container h2 { font-size: 36px; line-height: 38px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); width: 390px; }
   .home > .container h3 { font-size: 20px; line-height: 27px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); width: 210px; margin-bottom: 60px; }
@@ -76,7 +76,7 @@ body.home { background-position-y: 180px; background-color: white; }
 }
 /* Desktop */
 @media screen and (min-width: 992px) {
-  .home body > .container { background: url(images/bgrnd_desktop.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
+  .home > .container { background: url(images/bgrnd_desktop.png) no-repeat center center; background-size: cover; width: 100%; max-width: none; margin: 0; }
   .home .page-content-wrap { max-width: 960px; margin: 0 auto; height: 545px; }
   .home > .container h2 { font-size: 48px; line-height: 55px; text-shadow: 3px 3px 6px rgba(0,0,0,0.50); width: 8em; margin-bottom: 1em; }
   .home > .container h3 { font-size: 24px; line-height: 30px; text-shadow: 0px 2px 4px rgba(0,0,0,0.50); width: 9em; margin-bottom: 1.5em; }
@@ -117,6 +117,17 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 .dd-store img {
   max-width: 100%;
 }
+#dd-stores-wrapper h3 {
+  background-color: #3F3F3F;
+  margin: 0;
+  padding: 10px
+}
+#dd-stores-wrapper h3 a {
+  color: #EEEEEE;
+}
+#dd-stores-wrapper h3 a:hover {
+  color: white;
+}
 
 /**
  * Get Started Page
@@ -125,6 +136,7 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
   div#dd-gs-custom-bulk {
     width: 60%;
     float: left;
+    margin-bottom: 20px;
   }
   div#dd-gs-shopping {
     width: 35%;
@@ -146,10 +158,11 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
 .footer-callout-img, #footer-callout .footer-callout-heading, a.footer-callout-btn { display: none; }
 img#dd-people { position: absolute; right: 0; bottom: 0; }
 @media screen and (min-width: 751px) {
-	#logos-block { width: 165px; float: right; margin-top: -310px; }
+	#logos-block { width: 165px; float: right; margin-top: -205px; }
 	#logos-block img { margin-bottom: 10px; position: relative; }
-	#logos-block img:nth-child(2) { left: 25px; }
-	#logos-block img:nth-child(3) { left: 32px; }
+	#logos-block img:nth-child(2) { width: 45%; }
+	#logos-block img:nth-child(3) { left: 22px; top: -5px; width: 53%; }
+        #logos-block img:nth-child(4), #logos-block img:nth-child(5) { width: 80%; display: block; margin: 0 auto 10px; }
 }
 @media screen and (max-width: 750px) {
 	#logos-block img { margin-left: 20px; }
