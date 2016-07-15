@@ -118,6 +118,25 @@ body.home.how { background-image: url("https://webskillet.github.io/Deerfield_De
   max-width: 100%;
 }
 
+/**
+ * Get Started Page
+ */
+@media screen and (min-width: 836px) {
+  div#dd-gs-custom-bulk {
+    width: 60%;
+    float: left;
+  }
+  div#dd-gs-shopping {
+    width: 35%;
+    float: right;
+    background: #FAF7F7;
+    padding: 20px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+}
 /* footer */
 #footer .container .footer-col, #quote-callout { width: 30%; padding: 5px 0 15px 20px; border-left: none; }
 .footer-col p { color: #5a5a5a; }

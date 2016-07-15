@@ -10,6 +10,6 @@
   <div id="dd-gs-shopping">
     <h2>Shopping</h2>
     <p>Browse from our existing product lines...</p>
-    <a class="btn">Shop Now</a>
+    <a class="btn-primary btn">Shop Now</a>
   </div>
 </div>
