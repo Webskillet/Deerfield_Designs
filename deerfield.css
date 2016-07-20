@@ -177,7 +177,7 @@ img#dd-people { position: absolute; right: 0; bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "montserratReg",Helvetica,Arial,Verdana,sans-serif; }
 p, li { color: black; }
-.home .page-header h1 { display: none; }
+.home .page-header h1, .shopnow .page-header h1, .getstarted .page-header h1 { display: none; }
 /*.home h2, .home h3, .home h4, .home h5, .home h6 { text-transform: uppercase; }*/
 .content-block .tab p + h2, .content-block .tab p + h3, .content-block .tab p + h4, .content-block .tab p + h5, .content-block .tab p + h6, .content-block .tab ul + h2, .content-block .tab ul + h3, .content-block .tab ul + h4, .content-block .tab ul + h5, .content-block .tab ul + h6 { margin-top: 40px; }
 .home ul ul { margin-bottom: 0; }
