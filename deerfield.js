@@ -18,6 +18,22 @@ $(document).ready(function(){
 		urlBase = '';
 		isHome = true;
 	}
+	// test to see if we're on get started page
+	var isGetStarted = false;
+	var urlBase = window.location.origin + '/Deerfield_Designs/Stores/Page/1000017/Get_Started';
+	if (window.location.pathname.toLowerCase() == '/deerfield_designs/stores/page/1000017/get_started') {
+		$('body').addClass('getstarted');
+		urlBase = '';
+		isGetStarted = true;
+	}
+	// test to see if we're on shop now page
+	var isShopNow = false;
+	var urlBase = window.location.origin + '/Deerfield_Designs/Stores/Page/1000019/Shop_Now';
+	if (window.location.pathname.toLowerCase() == '/deerfield_designs/stores/page/1000019/shop_now') {
+		$('body').addClass('shopnow');
+		urlBase = '';
+		isShopNow = true;
+	}
 
 	// add custom menu
 	//$('.header-nav > ul > li:not(#header-nav-products)').remove();
