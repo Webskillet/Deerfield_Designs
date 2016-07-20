@@ -32,7 +32,6 @@ body.home { background-position-y: 180px; background-color: white; }
 }
 @media screen and (min-width: 836px) { 
 	#header { height: 178px; }
-	.logged-in #header { height: 372px; }
 	#header-wrap { height: 153px; }
 	/*#mobile-nav-wrap { position: absolute; bottom: 0; width: 100%; }*/
         nav.header-nav { position: absolute; bottom: 0; width: 52em; }
