@@ -92,6 +92,11 @@ body.home { background-position-y: 180px; background-color: white; }
 @media screen and (min-width: 1220px) {
   .home .page-content-wrap { max-width: 1080px; height: 620px; }
 }
+@media screen and (min-width: 1900px) {
+  .home .page-content-wrap { height: 820px; }
+  .home > .container h2 { margin-bottom: 3em; }
+  .home > .container h3 { margin-bottom: 3.5em; }
+}
 
 #footer-callout { display: none; }
 /*
