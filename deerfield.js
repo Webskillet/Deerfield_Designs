@@ -1,9 +1,6 @@
 $(document).ready(function(){
 	// add logged-in class if #admin-bar exists
-	// the following breaks IE8
-  // if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
-  // the following should work with IE8
-  if ($.trim($('#admin-bar').text()).length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
+	if ($('#admin-bar').text().trim().length || $('#admin-bar').children().length) { $('body').addClass('logged-in'); }
 
 	// change logo
 	$('#storelogoimage').attr('src','https://webskillet.github.io/Deerfield_Designs/images/logo.png');
