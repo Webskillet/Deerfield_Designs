@@ -49,4 +49,4 @@
 		<a href="http://cart.deerfielddesigns.com/stowe_lacrosse"><img src="https://webskillet.github.io/Deerfield_Designs/images/store-logos/stowe-lax.png"></a>
     <p>Online Store for Stowe Lacrosse League GEAR. "The Stowe Lacrosse League aspires to be an outstanding athletic organization that provides a high-quality experience."</p>
   </div>
-</div>
+</div><!-- end dd-stores-wrapper -->
