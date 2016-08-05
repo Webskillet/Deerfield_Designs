@@ -34,7 +34,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	#header { height: 178px; }
 	#header-wrap { height: 153px; }
 	/*#mobile-nav-wrap { position: absolute; bottom: 0; width: 100%; }*/
-  nav.header-nav { width: 38em; float: none; margin: 0 auto; }
+  nav.header-nav { width: 42em; float: none; margin: 0 auto; }
 	.header-main-nav { top: 5px; z-index: 500; }
 	.tagline { position: absolute; right: 0; font-size: 1.3em; top: 38px; }
 	.header-search .form-group { background: rgba(255, 255, 255, .2); border: solid 1px rgba(3, 27, 127, .3); }
@@ -43,7 +43,7 @@ body.home { background-position-y: 180px; background-color: white; }
 	.header-search { float: none; width: 190px; position: absolute; right: -17px; }
 }
 @media screen and (min-width: 1001px) {
-  nav.header-nav { width: 40em; }
+  nav.header-nav { width: 46em; }
 }
 /*@media screen and (min-width: 1500px) {
 	#header { height: 600px; }
