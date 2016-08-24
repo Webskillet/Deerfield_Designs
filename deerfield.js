@@ -90,8 +90,8 @@ $(document).ready(function(){
 	$('.footer-links').prepend('<p style="margin-bottom:10px;">America\'s Largest Selection of Sustainable Apparel</p><p style="color:rgb(89, 89, 89);">151 Mad River Canoe Rd, Waitsfield, VT 05673</p>');
 
   // Customize main nav menu
-  $('nav.header-nav ul li:nth-child(2), nav.header-nav ul li:nth-child(3)').remove();
-  $('nav.header-nav ul').prepend('<li><a href="/Deerfield_Designs/home">Home</a></li>');
-  $('nav.header-nav ul li:first-child').after('<li><a href="/Deerfield_Designs/Stores/Page/1000020/About">About</a></li>');
-  $('nav.header-nav ul').append('<li><a href="/Deerfield_Designs/Stores/Page/1000019/Shop_Now">Shop Now</a></li>');
+  $('nav.header-nav > ul li:nth-child(2), nav.header-nav ul li:nth-child(3)').remove();
+  $('nav.header-nav > ul').prepend('<li><a href="/Deerfield_Designs/home">Home</a></li>');
+  $('nav.header-nav > ul li:first-child').after('<li><a href="/Deerfield_Designs/Stores/Page/1000020/About">About</a></li>');
+  $('nav.header-nav > ul').append('<li><a href="/Deerfield_Designs/Stores/Page/1000019/Shop_Now">Shop Now</a></li>');
 });
