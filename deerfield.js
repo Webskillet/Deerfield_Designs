@@ -92,6 +92,6 @@ $(document).ready(function(){
   // Customize main nav menu
   $('nav.header-nav > ul li:nth-child(2), nav.header-nav ul li:nth-child(3)').remove();
   $('nav.header-nav > ul').prepend('<li><a href="/Deerfield_Designs/home">Home</a></li>');
-  $('nav.header-nav > ul li:first-child').after('<li><a href="/Deerfield_Designs/Stores/Page/1000020/About">About</a></li>');
+  $('nav.header-nav > ul > li:first-child').after('<li><a href="/Deerfield_Designs/Stores/Page/1000020/About">About</a></li>');
   $('nav.header-nav > ul').append('<li><a href="/Deerfield_Designs/Stores/Page/1000019/Shop_Now">Shop Now</a></li>');
 });
