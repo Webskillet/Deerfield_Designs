@@ -2,7 +2,7 @@ body { -webkit-text-size-adjust: 100%; }
 /*#header { background: url(images/DD_banner_large.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: solid #333 42px; }*/
 #header { position: relative; margin-bottom: 0; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; }
 
-.header-logo { float: none; height: 80px; width: 225px; margin: 0 auto; }
+.header-logo { float: none; height: 106px; width: 225px; margin: 0 auto; }
 .header-logo img { max-height: none; }
 #store-logo { width: inherit; height: inherit; }
 
